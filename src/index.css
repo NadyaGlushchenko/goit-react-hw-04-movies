@@ -1,0 +1,53 @@
+:root {
+  --primaryTextColor: #fff;
+  --secondaryTextColor: #c3beba;
+  --accentColor: #fa7584;
+  --bgColor: #2c3e50;
+  --textShadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  --boxShadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --timingFn: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primaryTextColor);
+  background-color: var(--bgColor);
+  text-shadow: var(--textShadow);
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+button {
+  cursor: pointer;
+}

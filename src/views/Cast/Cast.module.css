@@ -1,0 +1,32 @@
+.cast {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 450px;
+  margin: -15px;
+}
+
+.item {
+  width: 200px;
+  margin: 15px;
+}
+
+.photo {
+  height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.name {
+  font-family: 'Bangers', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: var(--accentColor);
+}
+
+.character {
+  font-size: 15px;
+  color: #c3beba;
+}
